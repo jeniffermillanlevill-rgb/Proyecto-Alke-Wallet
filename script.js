@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   if (localStorage.getItem('saldo') === null) {
-    localStorage.setItem('saldo', 0);
+    localStorage.setItem('saldo', 15.000.000.000);
   }
 
   $('#loginForm').submit(function(event) {
